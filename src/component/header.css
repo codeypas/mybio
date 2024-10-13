@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: #2d2e32;
+    cursor: pointer;
+    
+}
+nav{
+    margin-bottom: 1rem;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    font-size: 1.7rem;
+    height: auto;
+    justify-content: space-between;
+    left: 0;
+    padding: 25px 40px 25px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    font-weight: bold;  
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    
+}
+nav ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+nav ul li:hover{
+    color: rgb(23, 104, 226);
+}

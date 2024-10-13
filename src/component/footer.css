@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.foottop{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2e32;
+    color: white;
+    padding: 5rem 0;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+.sec1{
+    margin-left: 2rem;
+}
+.sec1 h2{
+    font-weight: bold;
+}
+.sec2{
+    display: flex;
+    justify-content:space-between;
+    width: 6rem;
+    margin-right: 2rem;
+}
